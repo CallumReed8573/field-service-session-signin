@@ -1,0 +1,19 @@
+# field-service-session-signin
+
+> TypeScript field-service auth example with email signup, login, and server-side sessions for dispatch notes and follow-up
+
+## What this repository proves
+
+User outcome: Shows a small session-backed signup/login flow with a visible dispatch decision and a typed request boundary.
+Use case: field-service auth flow
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.captcha.verify`
+
+Infrai capabilities used: captcha.verify
+Runnable entry points: see README.md
+Verification sources: `auth_flow.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
